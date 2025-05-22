@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/buttonStory4"
+        android:layout_width="293dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FFD670"
+        android:text="Haughty the Hare!"
+        android:textColor="#040404"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.523" />
+
+    <Button
+        android:id="@+id/helpButton"
+        android:layout_width="159dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#BB9BF6"
+        android:text="HELP"
+        android:textColor="#0B0B0B"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.789" />
+
+    <Button
+        android:id="@+id/buttonStory5"
+        android:layout_width="293dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#E9FF70"
+        android:text="The Lion and the Deer!"
+        android:textColor="#0B0B0B"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.602" />
+
+    <Button
+        android:id="@+id/buttonStory1"
+        android:layout_width="293dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#70D6FF"
+        android:text="Beliing The Cat!"
+        android:textColor="#090909"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.27" />
+
+    <Button
+        android:id="@+id/buttonStory2"
+        android:layout_width="293dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FF70A6"
+        android:text="Dirty Minty in a Fish Tank!"
+        android:textColor="#050505"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.353" />
+
+    <Button
+        android:id="@+id/continueButton"
+        android:layout_width="293dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#A5E45E"
+        android:text="Continue!"
+        android:textColor="#0B0B0B"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.684" />
+
+    <Button
+        android:id="@+id/buttonStory3"
+        android:layout_width="293dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FF9770"
+        android:text="Smiley the Caterpillar!"
+        android:textColor="#090909"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="351dp"
+        android:layout_height="123dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032"
+        app:srcCompat="@drawable/header" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
